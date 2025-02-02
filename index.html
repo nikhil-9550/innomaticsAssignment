@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scalgit 
+                <label for="Category">Category :</label> 
+                <select>
+                    <option value="option 1">Food</option>
+                    <option  value="option 2">Entertainment</option>
+                    <option  value="option 3">Transportation</option>
+                </select>
+            </div> <br>
+            <div>
+            <label> Description :</label> <input type="text">
+        </div><br>
+        <div>
+            <label > Date :</label> <input type="date">
+        </div><br>
+        <div>
+            <label> Type:</label>
+            <input type="radio" id="income" name="income" value="income"  />
+            <label for="income">income</label>
+            <input type="radio" id="income" name="income" value="income"  />
+            <label for="Expense">Expense</label>
+        </div><br>
+          <button type="button">
+            Add entry
+          </button>
+
+        </form>
+        <h3>Budget Summary</h3>
+    <table border="1" width="80%">
+        <tr>
+            <th>Category</th>
+            <th colspan ="2">Transaction Details</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Amount</th>
+            <th>Description</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Food</td>
+            <td>$200</td>
+            <td>Groceries for the week</td>
+            <td>Completed</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Transportation</td>
+            <td>$100</td>
+            <td>Monthly bus pass</td>
+            <td>Completed</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Entertainment</td>
+            <td>$50</td>
+            <td>Cinema tickets</td>
+            <td>Completed</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Salary</td>
+            <td>$3000</td>
+            <td>Monthly salary payment</td>
+            <td>Completed</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Savings</td>
+            <td>$500</td>
+            <td>Emergency fund deposit</td>
+            <td>Pending</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Utilities</td>
+            <td>$150</td>
+            <td>Electricity bill</td>
+            <td>Completed</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>$50</td>
+            <td>Water bill</td>
+            <td>Pending</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Housing</td>
+            <td>$1200</td>
+            <td>Monthly rent</td>
+            <td>Completed</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td>$300</td>
+            <td>Maintenance fee</td>
+            <td>Pending</td>
+            <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+        </tr>
+    </table>
+
+        <hr>
+        <footer >
+            <p> Personal Budget Tracker version 1.0</P>
+        </footer>
+    </center>
+</body>
+</html>
